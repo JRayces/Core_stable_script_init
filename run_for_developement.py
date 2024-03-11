@@ -37,8 +37,8 @@ def run_app(core_repo_name: str):
     os.chdir(project_path.joinpath(core_repo_name))
     os.system(DOCKER_COMPOSE_UP)
     # TODO check if this should always be the case (compose)
-    os.chdir(project_path)
-    os.system(DOCKER_COMPOSE_UP)
+    #os.chdir(project_path)
+    #os.system(DOCKER_COMPOSE_UP)
 
 
 def entry():
